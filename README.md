@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Initial project in RAils 7 with docker for initial development propose. The db used is postgres
 
-Things you may want to cover:
+Need docker already install.
 
-* Ruby version
+docker compose build 
+-> build the image
 
-* System dependencies
+docker compose up   
+-> upload the container
 
-* Configuration
+docker compose down
+-> drop the container
 
-* Database creation
+docker compose exec app bash
+-> run bash from container app
 
-* Database initialization
+docker compose exec app bash rails c
+-> run rails console
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
